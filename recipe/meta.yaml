@@ -18,7 +18,7 @@ requirements:
     - {{ stdlib('c') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-    - cmake >=3.0
+    - cmake >=3.5
     - make  # [not win]
 
 test:
