@@ -1,0 +1,11 @@
+diff --git a/platform/c++11/platform.h b/platform/c++11/platform.h
+index 2c80e0b..eecafd8 100644
+--- a/platform/c++11/platform.h
++++ b/platform/c++11/platform.h
+@@ -23,6 +23,7 @@
+ #include <inttypes.h>
+ #include <limits.h>
+ 
++#include <chrono>
+ #include <stdio.h>
+ #include <stdarg.h>
